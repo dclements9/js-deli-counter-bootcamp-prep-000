@@ -24,6 +24,6 @@ function currentLine(line){
       i++
       namePosition++
   }
-    return `The line is currently: ${lineNames} `
+    return `The line is currently: ${lineNames.join(', ')} `
   }
 }
