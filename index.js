@@ -1,5 +1,4 @@
 function takeANumber(quantity,name){
-    var line = []
     quantity.push(name)
     var position = quantity.length
 
