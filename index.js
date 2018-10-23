@@ -26,6 +26,6 @@ function currentLine(line){
     i++
     //return `The line is currently: ${lineNames}`
   }
-    return `The line is currently: ${lineNames}`
+    return `The line is currently: ${lineNames[]}`
   }
 }
