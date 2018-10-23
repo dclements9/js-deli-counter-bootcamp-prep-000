@@ -14,9 +14,16 @@ function nowServing(line){
 }
 
 function currentLine(line){
+  var lineNames = []
+  var namePosition = 1
   if (line.length === 0){
     return "The line is currently empty."
   }else{
-
+    while(line.length > 0){
+    lineNames.push(`${namePosition}. ${line[i]},`)
+    i++
+    return `The line is currently: ${lineNames}`
+  }
+  //  return `The line is currently: ${lineNames}`
   }
 }
