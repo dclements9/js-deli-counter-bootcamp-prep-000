@@ -24,8 +24,8 @@ function currentLine(line){
     while(line.length > 0){
     lineNames.push(`${namePosition}. ${line[i]},`)
     i++
-    return `The line is currently: ${lineNames}`
+    //return `The line is currently: ${lineNames}`
   }
-  //  return `The line is currently: ${lineNames}`
+    return `The line is currently: ${lineNames}`
   }
 }
