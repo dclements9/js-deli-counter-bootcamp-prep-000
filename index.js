@@ -1,7 +1,5 @@
 function takeANumber(quantity,name){
     quantity.push(name)
-    var position = quantity.length
-
   return `Welcome, ${name}. You are number ${quantity.length} in line.`
 }
 
