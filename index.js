@@ -2,7 +2,7 @@ function takeANumber(quantity,name){
     quantity.push(name)
     var position = quantity.length
 
-  return `Welcome, ${name}. You are number ${position} in line.`
+  return `Welcome, ${name}. You are number ${quantity.length} in line.`
 }
 
 function nowServing(line){
@@ -12,7 +12,7 @@ function nowServing(line){
     return `Currently serving ${line.shift()}.`
   }
 }
-/*
+
 function currentLine(line){
   var lineNames = []
   var namePosition = 1
@@ -28,19 +28,4 @@ function currentLine(line){
   }
     return `The line is currently: ${lineNames} `
   }
-}
-*/
-
-function currentLine(line) {
-  if (!line.length) {
-    return "The line is currently empty."
-  }
-
-  const numbersAndNames = []
-
-  for (let i = 0, l = line.length; i < l; i++) {
-    numbersAndNames.push(`${i + 1}. ${line[i]}`)
-  }
-
-  return `The line is currently: ${numbersAndNames}`
 }
