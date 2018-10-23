@@ -21,11 +21,12 @@ function currentLine(line){
   if (line.length === 0){
     return "The line is currently empty."
   }else{
-    while(line.length > 0){
+  //  while(line.length > 0){
+      while(i < line.length){
     lineNames.push(`${namePosition}. ${line[i]},`)
     i++
     //return `The line is currently: ${lineNames}`
   }
-    return `The line is currently: ${lineNames[]}`
+    //return `The line is currently: ${lineNames}`
   }
 }
